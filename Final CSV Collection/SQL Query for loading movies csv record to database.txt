@@ -1,0 +1,6 @@
+LOAD DATA INFILE 'C:/Users/dhira/Desktop/movies.csv' 
+INTO TABLE `recommendation_movie` 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
